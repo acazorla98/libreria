@@ -6,28 +6,28 @@
 /*   By: acazorla <acazorla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 13:05:25 by acazorla          #+#    #+#             */
-/*   Updated: 2024/10/25 10:14:04 by acazorla         ###   ########.fr       */
+/*   Updated: 2024/11/12 12:13:11 by acazorla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-static int	count(int numero)
+static int	count(int num)
 {
 	int	con;
 
 	con = 0;
-	if (numero != 0)
+	if (num != 0)
 	{
-		if (numero < 0)
+		if (num < 0)
 		{
-			numero = numero *(-1);
+			num = num *(-1);
 			con++;
 		}
-		while (numero != 0)
+		while (num != 0)
 		{
-			numero = numero / 10;
+			num = num / 10;
 			con++;
 		}
 	}
