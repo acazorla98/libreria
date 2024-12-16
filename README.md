@@ -1,11 +1,11 @@
 <tt>
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░  ░░░░░░░░        ░░       ░░░        ░░        ░░░░░░░░░░░░░
-▒▒▒▒▒▒▒▒▒▒▒▒▒  ▒▒▒▒▒▒▒▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒  ▒▒  ▒▒▒▒▒▒▒▒▒▒▒  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-▓▓▓▓▓▓▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓▓▓▓  ▓▓▓▓▓       ▓▓▓      ▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-█████████████  ███████████  █████  ████  ██  ███████████  ████████████████
-█████████████        ██        ██       ███  ███████████  ████████████████
-██████████████████████████████████████████████████████████████████████████
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░  ░░░░░░░░        ░░       ░░░        ░░        ░
+▒  ▒▒▒▒▒▒▒▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒  ▒▒  ▒▒▒▒▒▒▒▒▒▒▒  ▒▒▒▒
+▓  ▓▓▓▓▓▓▓▓▓▓▓  ▓▓▓▓▓       ▓▓▓      ▓▓▓▓▓▓▓  ▓▓▓▓
+█  ███████████  █████  ████  ██  ███████████  ████
+█        ██        ██       ███  ███████████  ████
+██████████████████████████████████████████████████
  </tt>
 
 En este proyecto (el primero del cursus de 42) se pretende replicar el funcionamiento de varias funciones de las librerias basicas de C, con el objetivo de comprender su funcionamiento.
@@ -39,5 +39,20 @@ las primeras funciones son replicas de funciones muy basicas:
 • strnstr -> busca la secuencia de carácteres contenida en la subcadena en una cadena de texto
 • atoi    -> convierte alpha a integral
 • calloc  -> asigna un espacio en memoria inicializada en 0
-• strdup
+• strdup  -> duplica un hilo y debuelve un puntero al duplicado
+</tt>
+
+funciones adicionales:
+<tt>
+• substr   -> crea un subhilo
+• strjoin  -> crea un hilo a partir de la union de dos
+• strtrim  -> elimina los caracteres seleccionados de el principio y final de un hilo
+• split    -> separa un hilo en subhilos usando un caracter como delimitador
+• itoa     -> convierte integral a alpha
+• strmapi  \\-> aplica una funcion dada a todos los caracteres de un hilo
+• striteri /
+• putchar_fd \\
+• putstr_fd   |-> pone el file descriptor elegido lo que sea necesario
+• putendl_fd  |
+• putnbr_fd  /
 </tt>
